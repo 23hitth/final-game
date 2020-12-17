@@ -1,0 +1,5 @@
+# Exported from 3D Builder
+
+newmtl prop_gas_station
+Kd 1.000000 1.000000 1.000000
+map_Kd prop_gas_station_baseColor.jpeg
