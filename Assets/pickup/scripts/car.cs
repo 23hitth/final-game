@@ -191,4 +191,12 @@ public class car : MonoBehaviour {
 		else if(Camera.main==null)
 			Debug.Log("please add a camera to the scene with tag 'MainCamera' ");
 	}
+
+    void OnTriggerStay(Collider target)
+    {
+        if (target.tag == "Finish")
+        {
+            Debug.Log("Finish");
+        }
+    }
 }
